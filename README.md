@@ -18,7 +18,7 @@ if err != nil {
 Prompts user for input which is sensitive e.g. password
 
 ```go
-u, err := Prompt("Enter password")
+p, err := Prompt("Enter password")
 if err != nil {
     ...
 }
